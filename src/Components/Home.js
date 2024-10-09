@@ -16,7 +16,7 @@ const Home = () => {
                 <div className='links'>
                     <Link className='link' to="/">Home</Link>
                     <Link className='link' to="/games">Games</Link>
-                    <img src={CompanyLogo} className='company-logo' />
+                    <img src={CompanyLogo} alt="CompanyLogo" className='company-logo' />
                     <h1 className='company-name-link' >Dreaminverse</h1>
                 </div>
             </div>
