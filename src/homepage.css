@@ -101,5 +101,21 @@
     background-color: #4b1400; /* Darker shade of orange on hover */
 }
 
+.foot{
+    background-color: rgb(79, 79, 79);
+}
+
+.privacypolicylink{
+    display: flex;
+    text-decoration: none;
+    padding-top: 20px;
+    padding-left: 40px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    font-size: 23px;
+    transition: all 0.3s ease;
+}
+
 
 
