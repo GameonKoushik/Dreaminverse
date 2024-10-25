@@ -1,24 +1,64 @@
 .privacy-policy-container {
     display: flex;
-    padding-top: 30px;
-    padding-left: 30px;
-    padding-right: 30px;
+    justify-content: center; /* Center content horizontally */
+    padding: 30px;
     gap: 20px;
     background-color: #0013c0; /* Set the background color */
-    /* border-radius: 10px; Optional: add rounded corners */
+    min-height: 100vh; /* Ensure full page height */
 }
 
 .privacy-policy-content {
-    flex: 3;
+    flex: 1;
+    max-width: 800px; /* Limit the width for better readability */
     background-color: #fff;
-    padding-left: 90px;
-    padding-top: 50px;
+    padding: 40px;
     border-radius: 30px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Enhanced shadow */
 }
 
+/* Adjust the main heading */
 .privacy-policy-content h1 {
-    color: #1600b9; /* Set a similar orange color */
-    font-size: 2em;
-    margin-bottom: 10px
+    color: #1600b9; /* Keep consistent color */
+    font-size: 2.5em; /* Slightly larger */
+    margin-bottom: 15px;
+    text-align: center; /* Center the heading */
+}
+
+/* Adjust other headings */
+.privacy-policy-content h3 {
+    color: #333;
+    font-size: 1.8em;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+/* Paragraph and list styling */
+.privacy-policy-content p, 
+.privacy-policy-content ul {
+    font-size: 1.1em;
+    color: #555;
+    line-height: 1.6;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .privacy-policy-container {
+        padding: 20px; /* Adjust padding for smaller screens */
+    }
+
+    .privacy-policy-content {
+        padding: 30px;
+    }
+
+    .privacy-policy-content h1 {
+        font-size: 2em; /* Adjust font size for small screens */
+    }
+
+    .privacy-policy-content h3 {
+        font-size: 1.5em;
+    }
+
+    .privacy-policy-content p {
+        font-size: 1em;
+    }
 }

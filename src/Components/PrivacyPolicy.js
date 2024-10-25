@@ -12,7 +12,7 @@ const Privacy = () => {
                     <Link className='link' to="/">Home</Link>
                     <Link className='link' to="/games">Games</Link>
                     <img src={CompanyLogo} alt="CompanyLogo" className='company-logo' />
-                    <h1 className='company-name-link' >Dreaminverse</h1>
+
                 </div>
             </div>
             <div class="privacy-policy-container">
